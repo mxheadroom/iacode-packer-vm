@@ -37,7 +37,8 @@
       "sudo mkdir /home/ansible/.ssh",
       "sudo mv /tmp/authorized_keys /home/ansible/.ssh/authorized_keys",
       "sudo chmod 600 /home/ansible/.ssh/authorized_keys",
-      "sudo chown -R ansible:ansible /home/ansible"
+      "sudo chown -R ansible:ansible /home/ansible",
+      "sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1"
     ]
   }
   ]
