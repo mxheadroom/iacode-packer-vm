@@ -34,6 +34,7 @@
       "sudo apt-get update",
       "sudo apt-get install -y nginx python2.7",
       "sudo adduser -q --disabled-password ansible",
+      "sudo usermod -aG sudo ansible",
       "sudo mkdir /home/ansible/.ssh",
       "sudo mv /tmp/authorized_keys /home/ansible/.ssh/authorized_keys",
       "sudo chmod 600 /home/ansible/.ssh/authorized_keys",
